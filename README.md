@@ -1,5 +1,4 @@
-# Image_based_search_Engine
- Built An Search Engine Using siamese network
+ # ContentCompanion-An Ai Powered content based Search Engine
 
 Function Name: create_custom_df
 
