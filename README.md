@@ -162,6 +162,18 @@ The function loads the pre-trained embedding model, and the embedding vectors of
 It then computes the Euclidean distance between the query image embedding and all the embeddings of the training images.
 The function sorts the distances in ascending order, and retrieves the file paths of the top-k images.
 For each top-k image, the function retrieves the corresponding captions from the training set.
+
+Function: show_retrieved_images(query, retrieved_images, distances, k)
+
+Description: This function displays the query image and top-k retrieved images with their corresponding distances.
+
+Input:
+
+query: The path of the query image.
+retrieved_images: A list of paths of the retrieved images.
+distances: A list of distances between the query image and the retrieved images.
+k: An integer indicating the number of retrieved images to be displayed.
+Output: None (Displays the images using matplotlib.pyplot)
 ###DEMO:
 
 
