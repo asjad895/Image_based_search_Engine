@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+h1{
+	color: #5543ca;
+     background: #5543ca;
+    background: -moz-linear-gradient(left,#053470  0%,#5543ca 100%) !important;
+    background: -webkit-linear-gradient(left,#043d83  0%,#5543ca 100%) !important;
+    background: linear-gradient(to right,#054792  0%,#5543ca  100%) !important;
+    -webkit-background-clip: text !important;  
+    -webkit-text-fill-color: transparent !important;
+}
+.iform {
+    background-color: transparent;
+    border-radius: 40px;
+    box-sizing: border-box;
+    border: 2px solid #dee2e6;
+    margin-top: 30px;
+}
+body{
+    /* background-image: url("{% static 'img/siamese.webp' %}"); */
+    margin-bottom: 60px; /* Height of the footer */
+    background-color:#7e92b3;
+}
+
+label{
+    color: #5543ca;
+    background: #5543ca;
+    background: -moz-linear-gradient(left,#074081  0%,#5543ca 100%) !important;
+    background: -webkit-linear-gradient(left,#084a9b  0%,#5543ca 100%) !important;
+    background: linear-gradient(to right,#093c85  0%,#5543ca  100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Height of the footer */
+    background-color: #110909;
+}
+.navbar-brand,button,.nav-link{
+    color: #5543ca;background: #5543ca;
+    background: -moz-linear-gradient(left,#064388  0%,#5543ca 100%) !important;
+    background: -webkit-linear-gradient(left,#064189  0%,#5543ca 100%) !important;
+    background: linear-gradient(to right,#0a2189  0%,#5543ca  100%) !important;
+    -webkit-background-clip: text !important;  
+    -webkit-text-fill-color: transparent !important;
+}
+.navbar{
+    background-color: #7295cc;
+}
+.footer{
+    text-align: center;
+    background-color: #7295cc;
+}
+.card{
+    background-color: #294572;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: #0a1523;
+    margin-left: 10px;
+    margin-right: 10px;
+}

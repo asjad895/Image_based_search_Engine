@@ -7,12 +7,12 @@ import pandas as pd
 from django.contrib import messages
 from django.shortcuts import render
 from django.conf import settings
-import tensorflow
+import tensorflow as tf
 from django.http import HttpResponse
-import tensorflow.keras
+from tensorflow import keras
 from keras.models import Model
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing.image import load_img, img_to_array
+from keras.models import load_model
+from keras.utils import load_img, img_to_array
 import csv
 import numpy as np
 
@@ -31,10 +31,4 @@ def search(request):
         return render(request, 'index.html')
 
 def results(request):
-    image_path = os.path.join(settings.MEDIA_ROOT, 'upload', '1000268201_693b08cb0e.jpg')
-    print(image_path)
-    with open(image_path, 'rb') as f:
-        # return HttpResponse(f.read(), content_type='image/jpeg')
-        img=f.read()
-    d={'img':img}
-    return render(request,'result.html',d)
+    return render(request,'result.html')
